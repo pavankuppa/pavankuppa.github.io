@@ -12,21 +12,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	color: #3E5172;
-	font-size: 16px;
+    color: #3E5172;
+    font-size: 16px;
 }
 
 .pt-10 {
-	padding-top: 10px;
+    padding-top: 10px;
 }
+
 .pt-20 {
-	padding-top: 20px;
+    padding-top: 20px;
 }
+
 .pb-15 {
-	padding-bottom: 15px;
+    padding-bottom: 15px;
 }
+
 .pb-10 {
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .pb-20 {
@@ -51,8 +54,18 @@ p {
 }
 
 .product-dropdown {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 10px 0;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 0.1px solid #c5c5c5;
+}
+
+.sticky {
+    position: sticky;
+    top: -1px;
+    width: 100%;
+    z-index: 9999;
 }
 
 .product-dropdown .PD-link {
@@ -246,23 +259,26 @@ footer .copyright {
     padding-bottom: 10px;
 }
 
-.home-certif{
-	padding: 200px 0;
+.home-certif {
+    padding: 200px 0;
 }
+
 .home-certif h2 {
-	color: #061F4A;
-	font-size: 40px;
-	font-family:"Tiempos";
-	text-align: center;
-	letter-spacing: -1px;
-	padding-top: 10px;
-	padding-bottom: 20px;
+    color: #061F4A;
+    font-size: 40px;
+    font-family: "Tiempos";
+    text-align: center;
+    letter-spacing: -1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
+
 .home-certif .HCT1 {
-	color: #061f4a8a;
-	font-size: 24px;
-	text-align: center;
+    color: #061f4a8a;
+    font-size: 24px;
+    text-align: center;
 }
+
 .home-certif img {
-	margin: 0 20px;
+    margin: 0 20px;
 }
