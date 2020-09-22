@@ -57,7 +57,7 @@ p {
     color: #fff;
 }
 
-.product-dropdown {
+#product-dropdown {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px 0;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
