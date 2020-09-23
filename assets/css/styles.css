@@ -65,11 +65,12 @@ p {
     border-bottom: 0.1px solid #c5c5c5;
 }
 
-.sticky {
-    position: sticky;
+#product-dropdown.product-dropdown {
+    /*position: sticky;
+    position: -webkit-sticky;
     top: -1px;
-    width: 100%;
-    z-index: 9999;
+    width: 100%;*/
+    z-index: 9999 !important;
 }
 
 .product-dropdown .PD-link {
